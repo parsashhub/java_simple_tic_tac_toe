@@ -13,21 +13,28 @@ horizontal, vertical, or diagonal row wins the game.
 
 ### Files
 
-- `TicTacToe.java`: Contains the main logic for the Tic Tac Toe game.
+- `Board.java`: Manages the Tic Tac Toe board.
+- `Player.java`: Represents a player in the game.
+- `GameRules.java`: Contains the rules for checking win conditions.
+- `Game.java`: Handles the main game logic.
 - `Main.java`: Contains the main method to run the game.
 
 ### Installation
 
 1. Clone this repository or download the source code.
 2. Open the project in your preferred IDE.
-3. Ensure that both `TicTacToe.java` and `Main.java` are in the same package or directory.
+3. Ensure that all the `.java` files are in the same package or directory.
 
 ## Running the Game
 
 1. Compile the Java files:
     ```bash
-    javac TicTacToe.java Main.java
+    javac Board.java Player.java GameRules.java Game.java Main.java
     ```
+   or
+   ```bash
+   javac *.java 
+   ```
 
 2. Run the game:
     ```bash
